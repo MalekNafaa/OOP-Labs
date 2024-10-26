@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Exercises:
+        // LAB1!
 /*      1. Create a program that prints your name to the screen. The program output should resemble the following:
         2. Create a program that prints out the following:
         3. Create a program that counts and displays how many seconds there are in a year.

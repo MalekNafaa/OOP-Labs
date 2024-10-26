@@ -1,7 +1,7 @@
 package week3;
 
 import java.sql.*;
-
+// POOR UNDERSTANDING BY MY SIDE // STUDY IT MORE
 public class DbConnect {
     private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/lab3";
     private static final String USERNAME = "root";
