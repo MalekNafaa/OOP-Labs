@@ -1,5 +1,6 @@
 package week5;
 
+import week5.interfaces.Repairable;
 import week5.model.Car;
 import week5.model.Motorcycle;
 import week5.model.Truck;
@@ -49,4 +50,5 @@ public class Main
 
     }
 
+    Repairable r1 = new Truck("rrr");
 }
