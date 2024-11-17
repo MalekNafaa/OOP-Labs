@@ -1,5 +1,6 @@
 package week5.model;
 
+import Midtermpreparation_CarRentalManagementSystem.CarType;
 import week5.interfaces.Repairable;
 
 public class Car extends Vehicle implements Repairable
@@ -17,6 +18,8 @@ public class Car extends Vehicle implements Repairable
         super(modelName,mileage,health);
         lifespanReduction = 0;
     }
+
+
 
 
     @Override
