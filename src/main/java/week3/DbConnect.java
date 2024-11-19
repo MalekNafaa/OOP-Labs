@@ -12,10 +12,10 @@ public class DbConnect {
     public static void main(String[] args) throws SQLException {
         DbConnect db = new DbConnect();
         try {
-//            db.getTasksById(1);
-            db.updateTaskNameById(6,"sadg");
-            db.getAllTasks();
-
+          //  db.getTasksById(1);
+           // db.updateTaskNameById(6,"sadg");
+           // db.getAllTasks();
+            db.insertTask(1000," ","idk");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
