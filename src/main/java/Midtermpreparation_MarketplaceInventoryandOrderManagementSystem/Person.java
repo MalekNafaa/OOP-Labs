@@ -13,7 +13,7 @@ public class Person {
     this.age=age;
     this.orders=new ArrayList<Order<? extends Item>>();
     }
-    void setNmae(String name){this.name=name;}
+    void setName(String name){this.name=name;}
     void setAge(int age){this.age=age;}
     void setOrders(List<Order<? extends Item>> orders){this.orders=orders;}
 
