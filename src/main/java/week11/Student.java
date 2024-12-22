@@ -25,7 +25,7 @@ public class Student{
     public String getName(){return name;}
     public String getUniversity(){return university;}
     public double getGpa(){return gpa;}
-    public String getDEpartment(){return department;}
+    public String getDepartment(){return department;}
 
     @Override
     public String toString()
